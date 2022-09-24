@@ -1,0 +1,6 @@
+name: TechAntyBot
+version: '${project.version}'
+main: store.techcode.techbot.Techbot
+api-version: 1.16
+authors: [ TechCode ]
+website: techcode.store
