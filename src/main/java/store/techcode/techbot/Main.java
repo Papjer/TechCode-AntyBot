@@ -11,7 +11,7 @@ public class Main extends JavaPlugin {
     public static Main main;
 
     public void onEnable() {
-        Bukkit.getConsoleSender().sendMessage("------------------ \n \n \n AntyBot sie wlacza \n Developer Dronojad#2298 \n Zrobiony dla VulcanBox.csrv.pl \n \n \n ------------------");
+        Bukkit.getConsoleSender().sendMessage("------------------ \n \n \n AntyBot sie wlacza \n Developer Dronojad#2298 \n Discord: https://discord.gg/dxCGTvSEFj \n Strona: techcode.store \n \n \n ------------------");
         getConfig().options().copyDefaults(true);
         saveConfig();
 
@@ -26,7 +26,7 @@ public class Main extends JavaPlugin {
 
 
     public void onDisable() {
-        Bukkit.getConsoleSender().sendMessage("------------------ \n \n \n AntyBot wylaczony poprawie \n Developer Dronojad#2298 \n Zrobiony dla VulcanBox.csrv.pl \n \n \n ------------------");
+        Bukkit.getConsoleSender().sendMessage("------------------ \n \n \n AntyBot wylaczony poprawie \n Developer Dronojad#2298 \n Discord: https://discord.gg/dxCGTvSEFj \n Strona: techcode.store \n \n \n ------------------");
         saveConfig();
     }
 
